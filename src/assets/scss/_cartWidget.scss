@@ -1,0 +1,38 @@
+
+.cart-widget {
+    position: relative;
+    cursor: pointer;
+    i.bi.bi-cart3 {
+        font-size: 2rem;
+        
+    }
+}
+
+.cart-content {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 10px;
+    background: #f3ab26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    /* padding: 8px; */
+    border: 1px solid #c58000;
+    line-height: 0;
+    color: #302209;
+}
+
+@media screen and (min-width: 1023px) {
+    .cart-widget {
+        margin-right: 2rem;
+        i.bi.bi-cart3 {
+            font-size: 2rem;        
+        }
+    }
+}
+
+

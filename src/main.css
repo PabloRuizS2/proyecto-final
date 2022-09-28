@@ -1,0 +1,145 @@
+body {
+  background: linear-gradient(89deg, #3d3c52 8%, #303244);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-widget i.bi.bi-cart3 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1023px) {
+  .cart-widget {
+    margin-right: 2rem;
+  }
+  .cart-widget i.bi.bi-cart3 {
+    font-size: 2rem;
+  }
+}
+.lf-header {
+  background-color: #f3ab26;
+  filter: drop-shadow(0px 2px 1px #121219);
+}
+.lf-header .top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.5rem;
+  padding: 0 calc(1rem + 2vw);
+}
+.lf-header .top-header h2 {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 2px 1px black;
+  margin: 0;
+}
+.lf-header .top-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.lf-header .top-end i.bi.bi-list {
+  font-size: 2rem;
+}
+
+.lf-navbar {
+  display: none;
+}
+.lf-navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  padding: 0 5rem;
+}
+.lf-navbar a {
+  text-decoration: none;
+  color: #1f190d;
+}
+
+input:checked ~ .lf-navbar {
+  display: flex;
+  height: calc(20rem + 3vh + 5vw);
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.16);
+  background: #ffc440;
+  font-size: calc(1.2rem + 1.5vw);
+}
+input:checked ~ .lf-navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  padding: 0 5rem;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1023px) {
+  .lf-header {
+    background-color: #f3ab26;
+    filter: drop-shadow(0px 2px 1px #121219);
+  }
+  .lf-header .top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    padding: 0 5rem;
+  }
+  .lf-header .top-header h2 {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 2px 1px black;
+    margin: 0;
+  }
+  .lf-header .top-header .burger-btn {
+    display: none;
+  }
+
+  .lf-navbar, input:checked ~ .lf-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.16);
+    height: 2.2rem;
+    font-size: 1rem;
+  }
+  .lf-navbar ul, input:checked ~ .lf-navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 0 5rem;
+    flex-direction: row;
+  }
+  .lf-navbar a, input:checked ~ .lf-navbar a {
+    text-decoration: none;
+    color: #1f190d;
+  }
+}
+.greeting {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.2rem;
+  background: linear-gradient(264deg, #222229, #1d1d27, #282830);
+  color: #ceceff;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=main.css.map */

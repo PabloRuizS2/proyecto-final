@@ -1,0 +1,19 @@
+@use './commons' as *;
+
+.your-order {
+    color: $font-secondary;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    gap: 1rem;
+}
+
+.processed {
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
