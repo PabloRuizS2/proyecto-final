@@ -8,7 +8,7 @@ Se implemento un manejo de rutas con BrowserRouter y se añadó el filtrado por 
 
 ## Navegación
 
-![flujo de app](https://github.com/PabloRuizS2/react13/blob/main/src/assets/navigation-example-gif.gif)
+![flujo de app](https://github.com/PabloRuizS2/proyecto-final/blob/main/src/assets/navigation-example-gif.gif)
 
 
 
