@@ -1,4 +1,4 @@
-## LaissezFaire 
+## Pablo Ariel Ruiz Segura
 
 Se desarrolló un prototipo de tienda virtual en React, incluyendo los siguientes componentes: 
 
@@ -8,7 +8,7 @@ Se implemento un manejo de rutas con BrowserRouter y se añadó el filtrado por 
 
 ## Navegación
 
-![flujo de app](https://github.com/GonzaEDS/LaissezFaire-DosSantos-React13/blob/master/src/assets/navigation-example-gif.gif)
+![flujo de app](https://github.com/PabloRuizS2/react13/blob/main/src/assets/navigation-example-gif.gif)
 
 
 
